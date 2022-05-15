@@ -1,0 +1,15 @@
+{
+  "name": "vercel-serverless-functions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:gregoryinouye/vercel-serverless-functions.git",
+  "author": "Gregory Inouye <48232124+gregoryinouye@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "start-dev": "vercel dev",
+    "deploy": "vercel deploy --prod"
+  },
+  "devDependencies": {
+    "vercel": "^24.2.3"
+  }
+}
